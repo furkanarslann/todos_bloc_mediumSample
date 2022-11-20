@@ -7,8 +7,6 @@ abstract class TodosState extends Equatable {
   List<Object> get props => [];
 }
 
-class TodosInitial extends TodosState {}
-
 class TodosLoaded extends TodosState {
   final List<Todo> todoList;
 
